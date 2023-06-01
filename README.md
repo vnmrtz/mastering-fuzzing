@@ -50,18 +50,18 @@ Echidna is a property-based fuzzer for Ethereum smart contracts. It is a tool th
 
 The tests are written in Solidity and are very similar to the ones you may already be familiar with. The main difference is that you have to use the `echidna_*` functions to define the properties you want to test. 
 
-The file [ERC20Test.sol](/test/echidna/ERC20Test.sol) contains a very simple example of internal testing with echidna. The test is very simple, it checks a few properties of the ERC20 token.
+The file [ERC20Test.sol](/echidna/ERC20Test.sol) contains a very simple example of internal testing with echidna. The test is very simple, it checks a few properties of the ERC20 token.
 
 From the root of the repo, run the following command to run the test:
 ```sh
-echidna --config echidna.yaml test/echidna/ERC20Test.sol --contract ERC20Test  
+echidna --config echidna.yaml echidna/ERC20Test.sol --contract ERC20Test  
 ```
 
 ### Prebuiilt properties Echidna
 
 Crytic has a set of prebuilt properties that can be used to test your contracts. You can find the list of properties [here](https://github.com/crytic/properties).
 
-The file [ERC20Harness.sol](/test/echidna/ERC20Harness.sol) contains a very simple example of external testing with echidna. Using this set of prebuilt properties, we can test the ERC20 token.
+The file [ERC20Harness.sol](/echidna/ERC20Harness.sol) contains a very simple example of external testing with echidna. Using this set of prebuilt properties, we can test the ERC20 token.
 
 ### Foundry
 
