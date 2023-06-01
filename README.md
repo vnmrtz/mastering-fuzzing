@@ -37,7 +37,7 @@ forge install
 
 You will find the demo contracts inside the `src/` folder. And the different tests/PoCs inside the `test/` folder.
 
-Echidna tests are located under `test/echidna` and foundry tests under `test/`. The echidna tests are already prepared to be run with the following command:
+Echidna tests are located under `echidna` and foundry tests under `test/`. The echidna tests are already prepared to be run with the following command:
 ```sh
 echidna --config echidna.yaml echidna/ERC20Test.sol --contract ERC20Test  
 ```
