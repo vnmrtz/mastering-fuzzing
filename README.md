@@ -1,6 +1,6 @@
 # Mastering Fuzzing
 
-This repo contains all the details to follow along with the "Mastering Fuzzing" workshop/talk. 
+This repo contains all the details to follow along with the ["Mastering Fuzzing"](https://www.youtube.com/watch?v=83q14K-WNKM) workshop/talk. 
 
 
 :star: The target audience includes both **smart contract developers** and **security people** looking to improve their testing practices and dive into the world of fuzzing.
