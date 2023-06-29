@@ -57,7 +57,7 @@ From the root of the repo, run the following command to run the test:
 echidna --config echidna.yaml echidna/ERC20Test.sol --contract ERC20Test  
 ```
 
-### Prebuiilt properties Echidna
+### Prebuilt properties Echidna
 
 Crytic has a set of prebuilt properties that can be used to test your contracts. You can find the list of properties [here](https://github.com/crytic/properties).
 
